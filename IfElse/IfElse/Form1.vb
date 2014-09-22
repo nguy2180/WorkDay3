@@ -20,6 +20,7 @@ Public Class Form1
 
         If Not (num1 >= 0 And num2 >= 0) Then
             MessageBox.Show("Check 2: Please not type negative numbers")
+            Return
         End If
         Dim result As String
 
